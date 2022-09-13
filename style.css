@@ -6,3 +6,34 @@
 html{
     font-size: 10px;
 }
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,lightpink,rgb(254, 208, 215));
+    position: relative;
+}
+.cont .bg-color{
+    position: absolute;
+    filter: blur(150px);
+}
+.cont .bg-color:nth-child(1){
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 191, 255);
+    top:0px;
+    left:0px;
+}
+.cont .bg-color:nth-child(2){
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 255, 0);
+    bottom: 10px;
+    right: 10px;
+}
+.cont .bg-color:nth-child(3){
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    bottom: 50px;
+    right: 50%;
+}
